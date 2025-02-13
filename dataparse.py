@@ -1,6 +1,7 @@
 import pandas as pd
 import xml.etree.ElementTree as ET
 import json
+import numpy as np
 
 def read_cat_file(filename):
     """Read the .cat file and return its content"""
